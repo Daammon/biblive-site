@@ -7,7 +7,7 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Delete your account and data · Biblive</title>
 <meta name="description" content="Delete your account and data · Biblive">
-<meta name="robots" content="noindex">
+<link rel="canonical" href="https://biblive.app/en/delete-account/">
 <link rel="alternate" hreflang="en" href="https://biblive.app/en/delete-account/"><link rel="alternate" hreflang="es" href="https://biblive.app/eliminar-cuenta/"><link rel="alternate" hreflang="x-default" href="https://biblive.app/eliminar-cuenta/">
 <meta name="theme-color" content="#F7F4EE" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0F1726" media="(prefers-color-scheme: dark)">
@@ -35,7 +35,25 @@
 <nav aria-label="Main"><a class="lang" href="/eliminar-cuenta/" hreflang="es" lang="es" aria-label="Español">ES</a></nav>
 </div></header>
 <main id="main" class="wrap doc">
-<h1>Delete your account and data</h1><div class="hold"><p>You can delete your account in the app, under Settings. We're finishing this page with full instructions, including how to do it without the app.</p><p>If you have any question about your data, write to <a href="mailto:privacidad@biblive.app">privacidad@biblive.app</a>.</p></div><p class="back"><a href="/en/">Back to home</a></p>
+<h1>Delete your account and data</h1><p class="meta">Last updated: 28 October 2026</p>
+<details class="toc"><summary>On this page</summary><ul><li><a href="#in-the-app">In the app</a></li><li><a href="#without-the-app">Without the app</a></li><li><a href="#what-is-deleted-and-what-is-kept">What is deleted and what is kept</a></li></ul></details>
+<p>This page explains how to delete your data from the <strong>Biblive</strong> app (Google Play, developer Daniel Amador Montaño).</p>
+<h2 id="in-the-app">In the app</h2>
+<ol>
+<li>Open Biblive and go to <strong>Settings</strong>.</li>
+<li>Tap <strong>Delete my data</strong> and confirm. This applies to guest profiles and accounts connected with Google.</li>
+<li>The service revokes access and queues resumable account deletion; the app clears local data after the request is accepted. Uninstalling alone does not request server deletion.</li>
+</ol>
+<h2 id="without-the-app">Without the app</h2>
+<p>E-mail <strong><a href="mailto:privacidad@biblive.app">privacidad@biblive.app</a></strong> from your account&#39;s address with the subject &quot;Delete account&quot;. We will confirm the deletion.</p>
+<h2 id="what-is-deleted-and-what-is-kept">What is deleted and what is kept</h2>
+<ul>
+<li>Account-linked profile/tradition, completed days, progress, reminder devices and Google account binding are removed by the deletion worker. Failed cleanup steps retry; the privacy contact handles unresolved requests. A one-day revocation marker prevents old credentials from being reused.</li>
+<li>You can delete only your tradition without deleting the account: in <strong>Settings → Tradition</strong>, choose &quot;Not sure&quot;.</li>
+<li>Raw pseudonymous analytics rows already written to Parquet expire under the configured 35-day S3 lifecycle; they are not selectively deleted. Account-to-analytics/campaign mappings are deleted. Aggregated statistics contain no account identifier. A purchase-token digest may remain without the former account or history to prevent duplicate ownership; Google Play retains its own purchase records.</li>
+<li>Deleting the app account or uninstalling does not cancel a Google Play subscription. Cancel renewal separately in Google Play.</li>
+</ul>
+
 </main>
 <footer><div class="wrap">
 <div class="cols">
