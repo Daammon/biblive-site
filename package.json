@@ -1,0 +1,12 @@
+{
+  "name": "biblive-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "build:preview": "node src/build.mjs --preview-legal"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}

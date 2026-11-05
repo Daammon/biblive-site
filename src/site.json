@@ -1,0 +1,14 @@
+{
+  "launch": {
+    "es": "Llega el 15 de noviembre",
+    "en": "Arriving 15 November"
+  },
+  "stores": {
+    "ios": "",
+    "android": ""
+  },
+  "email": {
+    "hello": "hola@biblive.app",
+    "press": "prensa@biblive.app"
+  }
+}
