@@ -1,6 +1,6 @@
 # biblive.app
 
-Static website for Biblive, served by GitHub Pages from `main:/docs` with the custom domain `biblive.app`.
+Static website for Biblive, deployed to GitHub Pages by `.github/workflows/pages.yml` (uploads `docs/`) with the custom domain `biblive.app`.
 It uses the app's design system: tokens from `dailybible/apps/mobile/src/core/theme`, Literata and Inter, and the app icon glyph.
 
 ## Build
