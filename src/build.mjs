@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Builds biblive.app into docs/ (served by GitHub Pages from main:/docs).
-// Home pages come from the copy below; legal pages from the app repo's legal/*.md (single source),
+// Home pages come from the copy below; legal pages from legal/*.md (public versions approved by the owner),
 // filled with src/legal.json. A legal page that still has an owner placeholder is published as a
 // short holding page instead, unless --preview-legal is passed (local review only, never deploy).
 // Binary assets (fonts, images, icons) come from src/make_assets.py.
@@ -12,7 +12,8 @@ import { marked } from 'marked';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const OUT = join(ROOT, 'docs');
-const LEGAL = join(ROOT, '..', 'dailybible', 'legal');
+// Public legal texts (v1.0+). Drafts and history live in the app repo's legal/ folder.
+const LEGAL = join(ROOT, 'legal');
 const ORIGIN = 'https://biblive.app';
 const PREVIEW_LEGAL = process.argv.includes('--preview-legal');
 const vars = JSON.parse(readFileSync(join(ROOT, 'src/legal.json'), 'utf8'));

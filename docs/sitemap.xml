@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://biblive.app/</loc></url>
   <url><loc>https://biblive.app/en/</loc></url>
+  <url><loc>https://biblive.app/privacidad/</loc></url>
+  <url><loc>https://biblive.app/terminos/</loc></url>
   <url><loc>https://biblive.app/eliminar-cuenta/</loc></url>
+  <url><loc>https://biblive.app/en/privacy/</loc></url>
+  <url><loc>https://biblive.app/en/terms/</loc></url>
   <url><loc>https://biblive.app/en/delete-account/</loc></url>
 </urlset>
