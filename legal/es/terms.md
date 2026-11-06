@@ -15,7 +15,7 @@ La aplicación publica cada día un pasaje de la Biblia en película, audio y te
 
 ## 2. Las películas
 
-Las palabras habladas y escritas son las de la traducción bíblica indicada en Ajustes, **sin cambios**. Las imágenes son una interpretación artística creada con herramientas digitales, incluida la inteligencia artificial, y no un registro histórico. Si encuentras una palabra errónea o una imagen inadecuada, usa «Informar de un problema» en la aplicación o escríbenos a {{HELLO_EMAIL}} y lo revisaremos y corregiremos.
+Las palabras habladas y escritas son las de la traducción bíblica indicada en Ajustes, **sin cambios**. Las imágenes son una interpretación artística, no un registro histórico. Si encuentras una palabra errónea o una imagen inadecuada, usa «Informar de un problema» en la aplicación o escríbenos a {{HELLO_EMAIL}} y lo revisaremos y corregiremos.
 
 ## 3. Suscripciones
 

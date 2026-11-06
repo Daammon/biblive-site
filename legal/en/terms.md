@@ -15,7 +15,7 @@ The app publishes one Bible passage a day as a film, audio and text, and keeps a
 
 ## 2. The films
 
-The spoken and written words are those of the Bible translation shown in Settings, **unchanged**. The pictures are an artistic interpretation made with digital tools, including artificial intelligence, not a historical record. If you find a wrong word or an unsuitable image, use "Report a problem" in the app or write to {{HELLO_EMAIL}} and we will review and correct it.
+The spoken and written words are those of the Bible translation shown in Settings, **unchanged**. The pictures are an artistic interpretation, not a historical record. If you find a wrong word or an unsuitable image, use "Report a problem" in the app or write to {{HELLO_EMAIL}} and we will review and correct it.
 
 ## 3. Subscriptions
 
